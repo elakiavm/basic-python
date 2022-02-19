@@ -31,6 +31,17 @@ def value(**val):
 value(fname = "harini",lname = "sara")
 
 """
+Using the key & value programming 
+"""
+def vp_fun(**kwargs):
+    for key, value in kwargs.items():
+        print("%s == %s" % (key, value))
+ 
+ 
+# Driver code
+vp_fun(first='hello', mid='world', last='python')
+
+"""
 declarartion of global variable
 """
 x = "Easy"
@@ -89,7 +100,3 @@ def rec_func(k):
 
 print("Recursion Example Result")
 rec_func(0)
-
-"""
-
-"""
