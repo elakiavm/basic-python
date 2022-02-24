@@ -23,6 +23,30 @@ a ="1000"
 
 i = 0
 
-while i<5:
-    print(i)
-    i = i + 1
+# def loop(i):
+#     while i<10:
+#         print(i)
+#         i = i + 1
+#     return i
+
+# i = int(input("Enter a number :"))
+# loop(i)
+
+
+
+# def sample():
+#     print('hello world')
+
+
+# sample()
+
+import math 
+
+x = math.sqrt(25)
+y = math.pi
+z = pow(7,3)
+
+print(z)
+
+
+
